@@ -1,0 +1,18 @@
+---
+students:
+- name: anil
+  phoneno: 888888888
+  address:
+    - doorno: 218
+    - street: 2nd
+    - state: TS
+    - pincode: 500001
+
+- name: suresh
+  phoneno: 99999999
+  address: hyd
+
+- name: geeta
+  phno: 77777777
+  address: hyd
+  
