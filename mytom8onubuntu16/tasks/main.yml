@@ -1,2 +1,11 @@
 ---
-# tasks file for mytom8onubuntu16
+- include_tasks: installjava.yml
+- include_tasks: CreateTomcatUser.yml
+- include_tasks: installtomcat.yml
+- include_tasks: UpdatePermissions.yml
+- include_tasks: CreateServiceFile.yml
+- include_tasks: StartTomcat.yml
+- include_tasks: TomcatWebManagement.yml
+- include_tasks: deploy.yml
+- include_tasks: restarttomcat.yml
+
